@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Звёздные увалы</title>
+	<!-- иконка (не удалять!) -->
+	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image.png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image.png" sizes="16x16" href="favicon-16x16.png">
+	<link rel="stylesheet" type="text/css" href="css/cod.css">
+	<noscript>ERROR js  !ВКЛЮЧИТЕ JavaSkript!  ERROR js</noscript>
+	<script src="js/j1.js"></script>
+	<!-- css для текста -->
+	<!-- <style> 
+    .text { 
+     text-align:  center; 
+     margin-top: 100px; 
+    } 
+  </style>  -->
+
+</head>
+<body backgroundcolor="#000" background="гора.jpg">
+	<header id="header" class="header">
+		<div class="container">
+			<div class="menu">
+
+					<div class="row">
+						<div class="col-sm">
+							<img style="width: 150px; height: 50px; left: 90px; top: 25px; position: absolute" class="rounded mx-auto d-block" alt="no" src="мстреблн.jpg" />
+						</div>
+						<div class="col-sm">
+							<p class="h1" style="left: 9%; top: 20px; position: absolute"><font size="6" color=#FFFFFF face="Century Gothic">Звёздные увалы</font></p>
+						</div>
+						<div class="col-sm">
+							<p class="h1" style="left: 23%; top: 27px; position: absolute"><font size="5" color=#FFFFFF face="Century Gothic">Лыжи, палки, сила воли- вот что нужно для здоровья!</font></p>
+						</div>
+						<div class="col-sm">
+							<div class="button">
+								<!--	<p class="h1" style="left: 53%; top: 31px; position: absolute"><font size="4" color=#FFFFFF face="Century Gothic">Регистрация туть</font></p> -->
+								<a href="ы2.jpg" class="gradient-button">Голосование</a>
+							</div>
+						</div>
+					</div>
+
+			</div>
+		</div>
+	</header>
+	<!-- слайд шоу называйте как хотите -->
+	<div class="slideshow-container">
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 4</div>
+        <img src="1.jpg" style="width:100%">
+        <div class="text"></div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 4</div>
+        <img src="2.jpg" style="width:100%">
+        <div class="text"></div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 4</div>
+        <img src="3.jpg" style="width:100%">
+        <div class="text"></div>
+      </div>
+       <div class="mySlides fade">
+        <div class="numbertext">4 / 4</div>
+        <img src="4.jpg" style="width:100%">
+        <div class="text"></div>
+      </div>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span> 
+    </div>
+    <!-- подключила джс -->
+    <script>
+      var slideIndex = 0;
+      showSlides();
+      
+      function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none"; 
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1} 
+        slides[slideIndex-1].style.display = "block"; 
+        setTimeout(showSlides, 2000); // Change image every 2 seconds
+      
+      }
+    </script>
+
+<div class="container">
+	<div class="row">
+		<div class="mlt">
+			<div class="col-sm">
+    			<p class="h1" style="color: white" align="center"><font face="Century Gothic" ><strong>Увалы - лыжня с вековой историей</strong></font>  </p>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<table width=120%>
+			<tr><td><img src="фото.png" class="mli"  alt="none" width=452 hight=290></td>
+			<td><p class="mlt2" style="color: white" ><font face="Century Gothic">Местная пресса 1900 года пишет о массовых лыжных прогулках на Тумановой горе (неподалёку от Увал).<br> <br>
+				Первые городские лыжные соревнования состоялись в 1925 году.<br> <br>
+				В 1986 году на Увалах прошли Всероссийские соревнования на приз Т.С. Мальцева. В них приняли участие спортсмены из 34 областей, в том числе и лыжники Шадринска. </font> </p></td></tr>
+		</table>
+	</div>
+<br>
+	<!-- <div class="row">
+		<table width=120%>
+			<tr><td> <p class="mlt3" style="color: white"><font  face="Century Gothic"> С 1938 года на Увалах стали проводить массовые культурные мероприятия. 
+				Например, большую популярность среди горожан имели маёвки - гуляния, семейные и дружеские пикники, приуроченные ко встрече весны и Дню международной солидарности трудящихся.<br><br>
+			 Именно здесь, на Увалах прошли первые послевоенные коллективные празднества. Их запечатлела газета Шадринский рабочий: 
+			 «15 июля 1945 г. впервые после войны за деревней Осеевой, на Увалах, состоялись массовые гуляния, на которые собрались тысячи шадринцев. 
+			 Играло два оркестра и очень много гармошек, были организованы аттракционы с призами, состоялся концерт кружков самодеятельности завода им. Сталина. В 5 часов начались конно-спортивные соревнования. 
+			 Хорошо обслуживали отдыхающих торгующие организации и общепит». <br><br>
+			По воспоминаниям Колясниковой Галины Андреевны (1942 г.р.) на улице Курчатова была лыжная база ДСО «Труд», популярная среди жителей поселка. Директором ее была Самохвалова Валентина Дмитриевна. 
+			В буфете всегда был горячий чай и булочки, которыми угощала вернувшихся с лыжной прогулки буфетчица по имени Анна. </font> </p></td>
+			<td><img src="фото2.png" class="mli2"  alt="none" width=452 hight=290></td></tr>
+		</table>
+	</div> -->
+	<div class="col-sm">
+	<p class="mlt" style="color: white" align="center"><font face="Century Gothic" ><strong> Новости </strong></font>  </p> 
+	<!-- <img src=".png" class="mlt1"  alt="none" width=1200 hight=1700> -->
+</div>
+	<div class="col-sm">
+	<p class="mlt" style="color: white" align="center"><font face="Century Gothic" ><strong> Интересные факты! </strong></font>  </p> 
+	<img src="цветы.png" class="mlt1"  alt="none" width=1200 hight=1700>
+</div>
+</div>
+	<footer id="footer" class="footer">
+		<div class="container">
+			<div class="foot">
+				<div class="row">
+					<div class="col-sm">
+						<p class="h1" style="margin-top: 2%; left: 10%; position: absolute"><font color=#FFFFFF face="Century Gothic"> <strong> Контактная информация: </strong> </font></p>
+						
+					</div>
+					<div class="col-sm">
+						<p class="h1" style="margin-top: 4%; position: absolute; left: 10%"><font color=#FFFFFF face="Century Gothic">Телефон: 8 (35253) 33215 </font></p>
+						
+					</div>
+					<div class="col-sm">
+						<p class="h1" style="margin-top: 6%; position: absolute; left: 10%"><font color=#FFFFFF face="Century Gothic">Почта: grad@shadrinsk-city.ru</font></p>
+					</div>
+				</div>
+	<!--		<div class="row">
+					<div class="col-sm">
+						<img style="width: 200px; height: 100px; left: 10%; position: absolute" class="rounded mx-auto d-block" alt="no" src="dream_TradingCard (1).jpg" />
+					</div>
+				</div> 
+	-->	
+			</div>
+		</div>
+	</footer>	
+</body>
+</html>

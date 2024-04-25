@@ -1,0 +1,1975 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Anton', sans-serif;
+	color: black;
+	font-size: 16px;
+	background-color: #D6E4F0;
+	margin-top: 50px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	width: 1255px;
+	/*позиционирование по центру*/
+	margin: 0 auto; 
+}
+
+.section {
+	margin-top: 100px;
+}
+
+hr {
+	color: #1E56A0;
+}
+
+.hhh {
+	margin-bottom: 20px;
+}
+
+/*.user {
+	display: flex;
+}*/
+
+b {
+	color: #FF0000;
+}
+
+.user label {
+	margin-left: 10px;
+}
+
+.f001 {
+	margin-top: -210px;
+	margin-left: 480px;
+}
+
+.godRojd_in input {
+  width: 200px;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+.godRojd_in input:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.fio_in input {
+  width: 565px;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+.fio_in input:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.coment_in input {
+  width: 895px;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+.coment_in input:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.sp_999b {
+	margin-left: 700px;
+}
+
+.nav {
+/*	width: 220px;*/
+	border: 3px solid #1E56A0;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 10px;
+}
+
+.nav:hover {
+	border-color: #163172;
+}
+
+.vopr {
+	margin-left: 20px;
+}
+
+
+
+.butt {
+	margin-top: 30px;
+/*	margin-left: 30px;*/
+	width: 1259px;
+	height: 60px;
+	border: 0;
+	background-color: #1E56A0;
+	color: #D6E4F0;
+	border-radius: 10px;
+	margin-bottom: 250px;
+}
+
+.butt:hover {
+  	background-color: #163172;
+}
+
+.okno_vnehka {
+	width: 550px;
+	height: 50px;
+	background-color: #1E56A0;
+	display: flex;
+	border-radius: 10px;
+	padding: 8px;
+	justify-content: center;
+	position: absolute;
+	bottom: 0;
+	margin-bottom: 20px;
+	opacity: 0.9;
+}
+
+.okno_vnehka:hover {
+	opacity: 1;
+}
+
+.okno_vnehka p {
+	color: #D6E4F0;
+
+}
+
+.butt_okno {
+	font: inherit;
+/*	font-weight: 500;*/
+	transition: background-color .15s ease-out;
+	border: 0;
+	background-color: #D6E4F0;
+	color: #1E56A0;
+	border-radius: 5px;
+	width: 50px;
+	height: 30px;
+	margin: auto;
+
+}
+
+.butt_okno:focus, .butt_okno:hover {
+  background-color: #163172;
+  color: #D6E4F0;
+}
+
+.flex {
+	display: flex;
+}
+
+.flex button {
+	border-radius: 5px;
+}
+
+.flexi {
+	margin-top: -15px;
+/*	margin-left: 10px;*/
+	margin-right: -20px;
+}
+
+.flexi input {
+	margin-top: 50px;
+}
+
+.flexi1 {
+	margin-top: -15px;
+	margin-left: 60px;
+	margin-right: -35px;
+}
+
+.flexi1 input, label {
+	margin-top: 50px;
+}
+
+.right_gol1 {
+	margin-left: 30px;
+}
+
+.right_gol {
+	margin-left: 50px;
+/*	display: flex;*/
+}		
+
+.coment_in {
+	margin-top: 30px;
+}
+
+.asdfghjk{
+	display: flex;
+}
+
+.f01 {
+	margin-top: -90px;
+	margin-left: -230px;
+}
+
+.f00 {
+	height: 10;
+	width: 10px;
+	margin-top: -260px;
+	margin-left: 540px;
+}
+
+.flex00 {
+	display: flex;
+}
+
+.sp_but888 {border-radius: 10px}
+.sp_888b:hover .spisoc888 {display: block;}
+.sp_888b:hover .sp_but888 {background-color: #D6E4F0;}
+.spisoc888 {
+	display: none;
+  position: absolute;
+  background-color: #D6E4F0;
+  border-radius: 10px;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.sp_but888 {
+	width: 230px;
+	margin-top: 20px;
+	background-color: #1E56A0;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+/* для элемента input c type="radio" */
+.spisoc888 input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+.spisoc888 label {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+}
+.spisoc888 label:before {
+  content: '';
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 1px solid #adb5bd;
+  border-radius: 50%;
+  margin-right: 0.5em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+/* стили при наведении курсора на радио */
+.spisoc888 input:not(:disabled):not(:checked)+label:hover::before {
+  border-color: #b3d7ff;
+}
+/* стили для активной радиокнопки (при нажатии на неё) */
+.spisoc888 input:not(:disabled):active+label::before {
+  background-color: #b3d7ff;
+  border-color: #b3d7ff;
+}
+/* стили для радиокнопки, находящейся в фокусе */
+.spisoc888 input:focus+label::before {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+/* стили для радиокнопки, находящейся в фокусе и не находящейся в состоянии checked */
+.spisoc888 input:focus:not(:checked)+label::before {
+  border-color: #80bdff;
+}
+/* стили для радиокнопки, находящейся в состоянии checked */
+.spisoc888 input:checked+label::before {
+  border-color: #0b76ef;
+  background-color: #0b76ef;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e");
+}
+/* стили для радиокнопки, находящейся в состоянии disabled */
+.spisoc888 input:disabled+label::before {
+  background-color: #e9ecef;
+}
+
+.sp_999b {
+	margin-left: 150px;
+	margin-top: 45px;
+}
+
+.sp_but999 {border-radius: 10px}
+.sp_999b:hover .spisoc999 {display: block;}
+.sp_999b:hover .sp_but999 {background-color: #D6E4F0;}
+.spisoc999 {
+	display: none;
+  position: absolute;
+  background-color: #D6E4F0;
+  border-radius: 10px;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.sp_but999 {
+	width: 230px;
+	margin-top: 20px;
+	background-color: #1E56A0;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+/* для элемента input c type="radio" */
+.spisoc999 input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+.spisoc999 label {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+}
+.spisoc999 label:before {
+  content: '';
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 1px solid #adb5bd;
+  border-radius: 50%;
+  margin-right: 0.5em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+/* стили при наведении курсора на радио */
+.spisoc999 input:not(:disabled):not(:checked)+label:hover::before {
+  border-color: #b3d7ff;
+}
+/* стили для активной радиокнопки (при нажатии на неё) */
+.spisoc999 input:not(:disabled):active+label::before {
+  background-color: #b3d7ff;
+  border-color: #b3d7ff;
+}
+/* стили для радиокнопки, находящейся в фокусе */
+.spisoc999 input:focus+label::before {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+/* стили для радиокнопки, находящейся в фокусе и не находящейся в состоянии checked */
+.spisoc999 input:focus:not(:checked)+label::before {
+  border-color: #80bdff;
+}
+/* стили для радиокнопки, находящейся в состоянии checked */
+.spisoc999 input:checked+label::before {
+  border-color: #0b76ef;
+  background-color: #0b76ef;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e");
+}
+/* стили для радиокнопки, находящейся в состоянии disabled */
+.spisoc999 input:disabled+label::before {
+  background-color: #e9ecef;
+}
+/* для элемента input c type="radio" */
+.spisoc20 input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+.spisoc20 label {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+}
+.spisoc20 label:before {
+  content: '';
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 1px solid #adb5bd;
+  border-radius: 50%;
+  margin-right: 0.5em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+/* стили при наведении курсора на радио */
+.spisoc20 input:not(:disabled):not(:checked)+label:hover::before {
+  border-color: #b3d7ff;
+}
+/* стили для активной радиокнопки (при нажатии на неё) */
+.spisoc20 input:not(:disabled):active+label::before {
+  background-color: #b3d7ff;
+  border-color: #b3d7ff;
+}
+/* стили для радиокнопки, находящейся в фокусе */
+.spisoc20 input:focus+label::before {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+/* стили для радиокнопки, находящейся в фокусе и не находящейся в состоянии checked */
+.spisoc20 input:focus:not(:checked)+label::before {
+  border-color: #80bdff;
+}
+/* стили для радиокнопки, находящейся в состоянии checked */
+.spisoc20 input:checked+label::before {
+  border-color: #0b76ef;
+  background-color: #0b76ef;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e");
+}
+/* стили для радиокнопки, находящейся в состоянии disabled */
+.spisoc20 input:disabled+label::before {
+  background-color: #e9ecef;
+}
+/* для элемента input c type="radio" */
+.spisoc23 input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+.spisoc23 label {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+}
+.spisoc23 label:before {
+  content: '';
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 1px solid #adb5bd;
+  border-radius: 50%;
+  margin-right: 0.5em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+/* стили при наведении курсора на радио */
+.spisoc23 input:not(:disabled):not(:checked)+label:hover::before {
+  border-color: #b3d7ff;
+}
+/* стили для активной радиокнопки (при нажатии на неё) */
+.spisoc23 input:not(:disabled):active+label::before {
+  background-color: #b3d7ff;
+  border-color: #b3d7ff;
+}
+/* стили для радиокнопки, находящейся в фокусе */
+.spisoc23 input:focus+label::before {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+/* стили для радиокнопки, находящейся в фокусе и не находящейся в состоянии checked */
+.spisoc23 input:focus:not(:checked)+label::before {
+  border-color: #80bdff;
+}
+/* стили для радиокнопки, находящейся в состоянии checked */
+.spisoc23 input:checked+label::before {
+  border-color: #0b76ef;
+  background-color: #0b76ef;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e");
+}
+/* стили для радиокнопки, находящейся в состоянии disabled */
+.spisoc23 input:disabled+label::before {
+  background-color: #e9ecef;
+}
+/* для элемента input c type="radio" */
+.spisoc22 input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+.spisoc22 label {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+}
+.spisoc22 label:before {
+  content: '';
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 1px solid #adb5bd;
+  border-radius: 50%;
+  margin-right: 0.5em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+/* стили при наведении курсора на радио */
+.spisoc22 input:not(:disabled):not(:checked)+label:hover::before {
+  border-color: #b3d7ff;
+}
+/* стили для активной радиокнопки (при нажатии на неё) */
+.spisoc22 input:not(:disabled):active+label::before {
+  background-color: #b3d7ff;
+  border-color: #b3d7ff;
+}
+/* стили для радиокнопки, находящейся в фокусе */
+.spisoc22 input:focus+label::before {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+/* стили для радиокнопки, находящейся в фокусе и не находящейся в состоянии checked */
+.spisoc22 input:focus:not(:checked)+label::before {
+  border-color: #80bdff;
+}
+/* стили для радиокнопки, находящейся в состоянии checked */
+.spisoc22 input:checked+label::before {
+  border-color: #0b76ef;
+  background-color: #0b76ef;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e");
+}
+/* стили для радиокнопки, находящейся в состоянии disabled */
+.spisoc22 input:disabled+label::before {
+  background-color: #e9ecef;
+}
+/* для элемента input c type="radio" */
+.spisoc21 input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+.spisoc21 label {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+}
+.spisoc21 label:before {
+  content: '';
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 1px solid #adb5bd;
+  border-radius: 50%;
+  margin-right: 0.5em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+/* стили при наведении курсора на радио */
+.spisoc21 input:not(:disabled):not(:checked)+label:hover::before {
+  border-color: #b3d7ff;
+}
+/* стили для активной радиокнопки (при нажатии на неё) */
+.spisoc21 input:not(:disabled):active+label::before {
+  background-color: #b3d7ff;
+  border-color: #b3d7ff;
+}
+/* стили для радиокнопки, находящейся в фокусе */
+.spisoc21 input:focus+label::before {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+/* стили для радиокнопки, находящейся в фокусе и не находящейся в состоянии checked */
+.spisoc21 input:focus:not(:checked)+label::before {
+  border-color: #80bdff;
+}
+/* стили для радиокнопки, находящейся в состоянии checked */
+.spisoc21 input:checked+label::before {
+  border-color: #0b76ef;
+  background-color: #0b76ef;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e");
+}
+/* стили для радиокнопки, находящейся в состоянии disabled */
+.spisoc21 input:disabled+label::before {
+  background-color: #e9ecef;
+}
+/* для элемента input c type="radio" */
+.spisoc16 input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+.spisoc16 label {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+}
+.spisoc16 label:before {
+  content: '';
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 1px solid #adb5bd;
+  border-radius: 50%;
+  margin-right: 0.5em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+/* стили при наведении курсора на радио */
+.spisoc16 input:not(:disabled):not(:checked)+label:hover::before {
+  border-color: #b3d7ff;
+}
+/* стили для активной радиокнопки (при нажатии на неё) */
+.spisoc16 input:not(:disabled):active+label::before {
+  background-color: #b3d7ff;
+  border-color: #b3d7ff;
+}
+/* стили для радиокнопки, находящейся в фокусе */
+.spisoc16 input:focus+label::before {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+/* стили для радиокнопки, находящейся в фокусе и не находящейся в состоянии checked */
+.spisoc16 input:focus:not(:checked)+label::before {
+  border-color: #80bdff;
+}
+/* стили для радиокнопки, находящейся в состоянии checked */
+.spisoc16 input:checked+label::before {
+  border-color: #0b76ef;
+  background-color: #0b76ef;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e");
+}
+/* стили для радиокнопки, находящейся в состоянии disabled */
+.spisoc16 input:disabled+label::before {
+  background-color: #e9ecef;
+}
+/* для элемента input c type="radio" */
+.spisoc15 input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+.spisoc15 label {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+}
+.spisoc15 label:before {
+  content: '';
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 1px solid #adb5bd;
+  border-radius: 50%;
+  margin-right: 0.5em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+/* стили при наведении курсора на радио */
+.spisoc15 input:not(:disabled):not(:checked)+label:hover::before {
+  border-color: #b3d7ff;
+}
+/* стили для активной радиокнопки (при нажатии на неё) */
+.spisoc15 input:not(:disabled):active+label::before {
+  background-color: #b3d7ff;
+  border-color: #b3d7ff;
+}
+/* стили для радиокнопки, находящейся в фокусе */
+.spisoc15 input:focus+label::before {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+/* стили для радиокнопки, находящейся в фокусе и не находящейся в состоянии checked */
+.spisoc15 input:focus:not(:checked)+label::before {
+  border-color: #80bdff;
+}
+/* стили для радиокнопки, находящейся в состоянии checked */
+.spisoc15 input:checked+label::before {
+  border-color: #0b76ef;
+  background-color: #0b76ef;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e");
+}
+/* стили для радиокнопки, находящейся в состоянии disabled */
+.spisoc15 input:disabled+label::before {
+  background-color: #e9ecef;
+}
+/* для элемента input c type="radio" */
+.spisoc14 input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+.spisoc14 label {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+}
+.spisoc14 label:before {
+  content: '';
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 1px solid #adb5bd;
+  border-radius: 50%;
+  margin-right: 0.5em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+/* стили при наведении курсора на радио */
+.spisoc14 input:not(:disabled):not(:checked)+label:hover::before {
+  border-color: #b3d7ff;
+}
+/* стили для активной радиокнопки (при нажатии на неё) */
+.spisoc14 input:not(:disabled):active+label::before {
+  background-color: #b3d7ff;
+  border-color: #b3d7ff;
+}
+/* стили для радиокнопки, находящейся в фокусе */
+.spisoc14 input:focus+label::before {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+/* стили для радиокнопки, находящейся в фокусе и не находящейся в состоянии checked */
+.spisoc14 input:focus:not(:checked)+label::before {
+  border-color: #80bdff;
+}
+/* стили для радиокнопки, находящейся в состоянии checked */
+.spisoc14 input:checked+label::before {
+  border-color: #0b76ef;
+  background-color: #0b76ef;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e");
+}
+/* стили для радиокнопки, находящейся в состоянии disabled */
+.spisoc14 input:disabled+label::before {
+  background-color: #e9ecef;
+}
+/* для элемента input c type="radio" */
+.spisoc13 input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+.spisoc13 label {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+}
+.spisoc13 label:before {
+  content: '';
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 1px solid #adb5bd;
+  border-radius: 50%;
+  margin-right: 0.5em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+/* стили при наведении курсора на радио */
+.spisoc13 input:not(:disabled):not(:checked)+label:hover::before {
+  border-color: #b3d7ff;
+}
+/* стили для активной радиокнопки (при нажатии на неё) */
+.spisoc13 input:not(:disabled):active+label::before {
+  background-color: #b3d7ff;
+  border-color: #b3d7ff;
+}
+/* стили для радиокнопки, находящейся в фокусе */
+.spisoc13 input:focus+label::before {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+/* стили для радиокнопки, находящейся в фокусе и не находящейся в состоянии checked */
+.spisoc13 input:focus:not(:checked)+label::before {
+  border-color: #80bdff;
+}
+/* стили для радиокнопки, находящейся в состоянии checked */
+.spisoc13 input:checked+label::before {
+  border-color: #0b76ef;
+  background-color: #0b76ef;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e");
+}
+/* стили для радиокнопки, находящейся в состоянии disabled */
+.spisoc13 input:disabled+label::before {
+  background-color: #e9ecef;
+}
+/* для элемента input c type="radio" */
+.spisoc12 input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+.spisoc12 label {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+}
+.spisoc12 label:before {
+  content: '';
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 1px solid #adb5bd;
+  border-radius: 50%;
+  margin-right: 0.5em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+/* стили при наведении курсора на радио */
+.spisoc12 input:not(:disabled):not(:checked)+label:hover::before {
+  border-color: #b3d7ff;
+}
+/* стили для активной радиокнопки (при нажатии на неё) */
+.spisoc12 input:not(:disabled):active+label::before {
+  background-color: #b3d7ff;
+  border-color: #b3d7ff;
+}
+/* стили для радиокнопки, находящейся в фокусе */
+.spisoc12 input:focus+label::before {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+/* стили для радиокнопки, находящейся в фокусе и не находящейся в состоянии checked */
+.spisoc12 input:focus:not(:checked)+label::before {
+  border-color: #80bdff;
+}
+/* стили для радиокнопки, находящейся в состоянии checked */
+.spisoc12 input:checked+label::before {
+  border-color: #0b76ef;
+  background-color: #0b76ef;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e");
+}
+/* стили для радиокнопки, находящейся в состоянии disabled */
+.spisoc12 input:disabled+label::before {
+  background-color: #e9ecef;
+}
+/* для элемента input c type="radio" */
+.spisoc11 input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+.spisoc11 label {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+}
+.spisoc11 label:before {
+  content: '';
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 1px solid #adb5bd;
+  border-radius: 50%;
+  margin-right: 0.5em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+/* стили при наведении курсора на радио */
+.spisoc11 input:not(:disabled):not(:checked)+label:hover::before {
+  border-color: #b3d7ff;
+}
+/* стили для активной радиокнопки (при нажатии на неё) */
+.spisoc11 input:not(:disabled):active+label::before {
+  background-color: #b3d7ff;
+  border-color: #b3d7ff;
+}
+/* стили для радиокнопки, находящейся в фокусе */
+.spisoc11 input:focus+label::before {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+/* стили для радиокнопки, находящейся в фокусе и не находящейся в состоянии checked */
+.spisoc11 input:focus:not(:checked)+label::before {
+  border-color: #80bdff;
+}
+/* стили для радиокнопки, находящейся в состоянии checked */
+.spisoc11 input:checked+label::before {
+  border-color: #0b76ef;
+  background-color: #0b76ef;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e");
+}
+/* стили для радиокнопки, находящейся в состоянии disabled */
+.spisoc11 input:disabled+label::before {
+  background-color: #e9ecef;
+}
+/* для элемента input c type="radio" */
+.spisoc10 input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+.spisoc10 label {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+}
+.spisoc10 label:before {
+  content: '';
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 1px solid #adb5bd;
+  border-radius: 50%;
+  margin-right: 0.5em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+/* стили при наведении курсора на радио */
+.spisoc10 input:not(:disabled):not(:checked)+label:hover::before {
+  border-color: #b3d7ff;
+}
+/* стили для активной радиокнопки (при нажатии на неё) */
+.spisoc10 input:not(:disabled):active+label::before {
+  background-color: #b3d7ff;
+  border-color: #b3d7ff;
+}
+/* стили для радиокнопки, находящейся в фокусе */
+.spisoc10 input:focus+label::before {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+/* стили для радиокнопки, находящейся в фокусе и не находящейся в состоянии checked */
+.spisoc10 input:focus:not(:checked)+label::before {
+  border-color: #80bdff;
+}
+/* стили для радиокнопки, находящейся в состоянии checked */
+.spisoc10 input:checked+label::before {
+  border-color: #0b76ef;
+  background-color: #0b76ef;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e");
+}
+/* стили для радиокнопки, находящейся в состоянии disabled */
+.spisoc10 input:disabled+label::before {
+  background-color: #e9ecef;
+}
+/* для элемента input c type="radio" */
+.spisoc9 input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+.spisoc9 label {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+}
+.spisoc9 label:before {
+  content: '';
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 1px solid #adb5bd;
+  border-radius: 50%;
+  margin-right: 0.5em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+/* стили при наведении курсора на радио */
+.spisoc9 input:not(:disabled):not(:checked)+label:hover::before {
+  border-color: #b3d7ff;
+}
+/* стили для активной радиокнопки (при нажатии на неё) */
+.spisoc9 input:not(:disabled):active+label::before {
+  background-color: #b3d7ff;
+  border-color: #b3d7ff;
+}
+/* стили для радиокнопки, находящейся в фокусе */
+.spisoc9 input:focus+label::before {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+/* стили для радиокнопки, находящейся в фокусе и не находящейся в состоянии checked */
+.spisoc9 input:focus:not(:checked)+label::before {
+  border-color: #80bdff;
+}
+/* стили для радиокнопки, находящейся в состоянии checked */
+.spisoc9 input:checked+label::before {
+  border-color: #0b76ef;
+  background-color: #0b76ef;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e");
+}
+/* стили для радиокнопки, находящейся в состоянии disabled */
+.spisoc9 input:disabled+label::before {
+  background-color: #e9ecef;
+}
+/* для элемента input c type="radio" */
+.spisoc8 input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+.spisoc8 label {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+}
+.spisoc8 label:before {
+  content: '';
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 1px solid #adb5bd;
+  border-radius: 50%;
+  margin-right: 0.5em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+/* стили при наведении курсора на радио */
+.spisoc8 input:not(:disabled):not(:checked)+label:hover::before {
+  border-color: #b3d7ff;
+}
+/* стили для активной радиокнопки (при нажатии на неё) */
+.spisoc8 input:not(:disabled):active+label::before {
+  background-color: #b3d7ff;
+  border-color: #b3d7ff;
+}
+/* стили для радиокнопки, находящейся в фокусе */
+.spisoc8 input:focus+label::before {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+/* стили для радиокнопки, находящейся в фокусе и не находящейся в состоянии checked */
+.spisoc8 input:focus:not(:checked)+label::before {
+  border-color: #80bdff;
+}
+/* стили для радиокнопки, находящейся в состоянии checked */
+.spisoc8 input:checked+label::before {
+  border-color: #0b76ef;
+  background-color: #0b76ef;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e");
+}
+/* стили для радиокнопки, находящейся в состоянии disabled */
+.spisoc8 input:disabled+label::before {
+  background-color: #e9ecef;
+}
+/* для элемента input c type="radio" */
+.spisoc7 input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+.spisoc7 label {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+}
+.spisoc7 label:before {
+  content: '';
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 1px solid #adb5bd;
+  border-radius: 50%;
+  margin-right: 0.5em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+/* стили при наведении курсора на радио */
+.spisoc7 input:not(:disabled):not(:checked)+label:hover::before {
+  border-color: #b3d7ff;
+}
+/* стили для активной радиокнопки (при нажатии на неё) */
+.spisoc7 input:not(:disabled):active+label::before {
+  background-color: #b3d7ff;
+  border-color: #b3d7ff;
+}
+/* стили для радиокнопки, находящейся в фокусе */
+.spisoc7 input:focus+label::before {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+/* стили для радиокнопки, находящейся в фокусе и не находящейся в состоянии checked */
+.spisoc7 input:focus:not(:checked)+label::before {
+  border-color: #80bdff;
+}
+/* стили для радиокнопки, находящейся в состоянии checked */
+.spisoc7 input:checked+label::before {
+  border-color: #0b76ef;
+  background-color: #0b76ef;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e");
+}
+/* стили для радиокнопки, находящейся в состоянии disabled */
+.spisoc7 input:disabled+label::before {
+  background-color: #e9ecef;
+}
+/* для элемента input c type="radio" */
+.spisoc6 input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+.spisoc6 label {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+}
+.spisoc6 label:before {
+  content: '';
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 1px solid #adb5bd;
+  border-radius: 50%;
+  margin-right: 0.5em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+/* стили при наведении курсора на радио */
+.spisoc6 input:not(:disabled):not(:checked)+label:hover::before {
+  border-color: #b3d7ff;
+}
+/* стили для активной радиокнопки (при нажатии на неё) */
+.spisoc6 input:not(:disabled):active+label::before {
+  background-color: #b3d7ff;
+  border-color: #b3d7ff;
+}
+/* стили для радиокнопки, находящейся в фокусе */
+.spisoc6 input:focus+label::before {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+/* стили для радиокнопки, находящейся в фокусе и не находящейся в состоянии checked */
+.spisoc6 input:focus:not(:checked)+label::before {
+  border-color: #80bdff;
+}
+/* стили для радиокнопки, находящейся в состоянии checked */
+.spisoc6 input:checked+label::before {
+  border-color: #0b76ef;
+  background-color: #0b76ef;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e");
+}
+/* стили для радиокнопки, находящейся в состоянии disabled */
+.spisoc6 input:disabled+label::before {
+  background-color: #e9ecef;
+}
+/* для элемента input c type="radio" */
+.spisoc5 input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+.spisoc5 label {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+}
+.spisoc5 label:before {
+  content: '';
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 1px solid #adb5bd;
+  border-radius: 50%;
+  margin-right: 0.5em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+/* стили при наведении курсора на радио */
+.spisoc5 input:not(:disabled):not(:checked)+label:hover::before {
+  border-color: #b3d7ff;
+}
+/* стили для активной радиокнопки (при нажатии на неё) */
+.spisoc5 input:not(:disabled):active+label::before {
+  background-color: #b3d7ff;
+  border-color: #b3d7ff;
+}
+/* стили для радиокнопки, находящейся в фокусе */
+.spisoc5 input:focus+label::before {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+/* стили для радиокнопки, находящейся в фокусе и не находящейся в состоянии checked */
+.spisoc5 input:focus:not(:checked)+label::before {
+  border-color: #80bdff;
+}
+/* стили для радиокнопки, находящейся в состоянии checked */
+.spisoc5 input:checked+label::before {
+  border-color: #0b76ef;
+  background-color: #0b76ef;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e");
+}
+/* стили для радиокнопки, находящейся в состоянии disabled */
+.spisoc5 input:disabled+label::before {
+  background-color: #e9ecef;
+}
+/* для элемента input c type="radio" */
+.spisoc4 input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+.spisoc4 label {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+}
+.spisoc4 label:before {
+  content: '';
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 1px solid #adb5bd;
+  border-radius: 50%;
+  margin-right: 0.5em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+/* стили при наведении курсора на радио */
+.spisoc4 input:not(:disabled):not(:checked)+label:hover::before {
+  border-color: #b3d7ff;
+}
+/* стили для активной радиокнопки (при нажатии на неё) */
+.spisoc4 input:not(:disabled):active+label::before {
+  background-color: #b3d7ff;
+  border-color: #b3d7ff;
+}
+/* стили для радиокнопки, находящейся в фокусе */
+.spisoc4 input:focus+label::before {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+/* стили для радиокнопки, находящейся в фокусе и не находящейся в состоянии checked */
+.spisoc4 input:focus:not(:checked)+label::before {
+  border-color: #80bdff;
+}
+/* стили для радиокнопки, находящейся в состоянии checked */
+.spisoc4 input:checked+label::before {
+  border-color: #0b76ef;
+  background-color: #0b76ef;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e");
+}
+/* стили для радиокнопки, находящейся в состоянии disabled */
+.spisoc4 input:disabled+label::before {
+  background-color: #e9ecef;
+}
+/* для элемента input c type="radio" */
+.spisoc3 input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+.spisoc3 label {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+}
+.spisoc3 label:before {
+  content: '';
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 1px solid #adb5bd;
+  border-radius: 50%;
+  margin-right: 0.5em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+/* стили при наведении курсора на радио */
+.spisoc3 input:not(:disabled):not(:checked)+label:hover::before {
+  border-color: #b3d7ff;
+}
+/* стили для активной радиокнопки (при нажатии на неё) */
+.spisoc3 input:not(:disabled):active+label::before {
+  background-color: #b3d7ff;
+  border-color: #b3d7ff;
+}
+/* стили для радиокнопки, находящейся в фокусе */
+.spisoc3 input:focus+label::before {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+/* стили для радиокнопки, находящейся в фокусе и не находящейся в состоянии checked */
+.spisoc3 input:focus:not(:checked)+label::before {
+  border-color: #80bdff;
+}
+/* стили для радиокнопки, находящейся в состоянии checked */
+.spisoc3 input:checked+label::before {
+  border-color: #0b76ef;
+  background-color: #0b76ef;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e");
+}
+/* стили для радиокнопки, находящейся в состоянии disabled */
+.spisoc3 input:disabled+label::before {
+  background-color: #e9ecef;
+}
+/* для элемента input c type="radio" */
+.spisoc1 input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+.spisoc1 label {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+}
+.spisoc1 label:before {
+  content: '';
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 1px solid #adb5bd;
+  border-radius: 50%;
+  margin-right: 0.5em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+/* стили при наведении курсора на радио */
+.spisoc1 input:not(:disabled):not(:checked)+label:hover::before {
+  border-color: #b3d7ff;
+}
+/* стили для активной радиокнопки (при нажатии на неё) */
+.spisoc1 input:not(:disabled):active+label::before {
+  background-color: #b3d7ff;
+  border-color: #b3d7ff;
+}
+/* стили для радиокнопки, находящейся в фокусе */
+.spisoc1 input:focus+label::before {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+/* стили для радиокнопки, находящейся в фокусе и не находящейся в состоянии checked */
+.spisoc1 input:focus:not(:checked)+label::before {
+  border-color: #80bdff;
+}
+/* стили для радиокнопки, находящейся в состоянии checked */
+.spisoc1 input:checked+label::before {
+  border-color: #0b76ef;
+  background-color: #0b76ef;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e");
+}
+/* стили для радиокнопки, находящейся в состоянии disabled */
+.spisoc1 input:disabled+label::before {
+  background-color: #e9ecef;
+}
+/* для элемента input c type="radio" */
+.spisoc2 input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+.spisoc2 label {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+}
+.spisoc2 label:before {
+  content: '';
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 1px solid #adb5bd;
+  border-radius: 50%;
+  margin-right: 0.5em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+/* стили при наведении курсора на радио */
+.spisoc2 input:not(:disabled):not(:checked)+label:hover::before {
+  border-color: #b3d7ff;
+}
+/* стили для активной радиокнопки (при нажатии на неё) */
+.spisoc2 input:not(:disabled):active+label::before {
+  background-color: #b3d7ff;
+  border-color: #b3d7ff;
+}
+/* стили для радиокнопки, находящейся в фокусе */
+.spisoc2 input:focus+label::before {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+/* стили для радиокнопки, находящейся в фокусе и не находящейся в состоянии checked */
+.spisoc2 input:focus:not(:checked)+label::before {
+  border-color: #80bdff;
+}
+/* стили для радиокнопки, находящейся в состоянии checked */
+.spisoc2 input:checked+label::before {
+  border-color: #0b76ef;
+  background-color: #0b76ef;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e");
+}
+/* стили для радиокнопки, находящейся в состоянии disabled */
+.spisoc2 input:disabled+label::before {
+  background-color: #e9ecef;
+}
+/* для элемента input c type="checkbox" */
+.flexi1 input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+/* для элемента label, связанного с .custom-checkbox */
+.flexi1 label {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+}
+/* создание в label псевдоэлемента before со следующими стилями */
+.flexi1 label:before {
+  content: '';
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 1px solid #adb5bd;
+  border-radius: 0.25em;
+  margin-right: 0.5em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+/* стили при наведении курсора на checkbox */
+.flexi1 input:not(:disabled):not(:checked)+label:hover::before {
+  border-color: #b3d7ff;
+}
+/* стили для активного чекбокса (при нажатии на него) */
+.flexi1 input:not(:disabled):active+label::before {
+  background-color: #b3d7ff;
+  border-color: #b3d7ff;
+}
+/* стили для чекбокса, находящегося в фокусе */
+.flexi1 input:focus+label::before {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+/* стили для чекбокса, находящегося в фокусе и не находящегося в состоянии checked */
+.flexi1 input:focus:not(:checked)+label::before {
+  border-color: #80bdff;
+}
+/* стили для чекбокса, находящегося в состоянии checked */
+.flexi1 input:checked+label::before {
+  border-color: #0b76ef;
+  background-color: #0b76ef;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
+}
+/* стили для чекбокса, находящегося в состоянии disabled */
+.flexi1 input:disabled+label::before {
+  background-color: #e9ecef;
+}
+/* для элемента input c type="checkbox" */
+.flexi input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+/* для элемента label, связанного с .custom-checkbox */
+.flexi label {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+}
+/* создание в label псевдоэлемента before со следующими стилями */
+.flexi label:before {
+  content: '';
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 1px solid #adb5bd;
+  border-radius: 0.25em;
+  margin-right: 0.5em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+/* стили при наведении курсора на checkbox */
+.flexi input:not(:disabled):not(:checked)+label:hover::before {
+  border-color: #b3d7ff;
+}
+/* стили для активного чекбокса (при нажатии на него) */
+.flexi input:not(:disabled):active+label::before {
+  background-color: #b3d7ff;
+  border-color: #b3d7ff;
+}
+/* стили для чекбокса, находящегося в фокусе */
+.flexi input:focus+label::before {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+/* стили для чекбокса, находящегося в фокусе и не находящегося в состоянии checked */
+.flexi input:focus:not(:checked)+label::before {
+  border-color: #80bdff;
+}
+/* стили для чекбокса, находящегося в состоянии checked */
+.flexi input:checked+label::before {
+  border-color: #0b76ef;
+  background-color: #0b76ef;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
+}
+/* стили для чекбокса, находящегося в состоянии disabled */
+.flexi input:disabled+label::before {
+  background-color: #e9ecef;
+}
+
+
+.sp_but1 {
+	width: 230px;
+	margin-top: 20px;
+	background-color: #1E56A0;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+.sp_but2 {
+	width: 230px;
+	margin-top: 20px;
+	background-color: #1E56A0;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+.sp_but3 {
+	width: 230px;
+	margin-top: 20px;
+	background-color: #1E56A0;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+.sp_but4 {
+	width: 230px;
+	margin-top: 20px;
+	background-color: #1E56A0;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+.sp_but5 {
+	width: 230px;
+	margin-top: 20px;
+	background-color: #1E56A0;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+.sp_but6 {
+	width: 230px;
+	margin-top: 20px;
+	background-color: #1E56A0;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+.sp_but7 {
+	width: 230px;
+	margin-top: 20px;
+	background-color: #1E56A0;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+.sp_but8 {
+	width: 230px;
+	margin-top: 20px;
+	background-color: #1E56A0;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+.sp_but9 {
+	width: 230px;
+	margin-top: 20px;
+	background-color: #1E56A0;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+.sp_but10 {
+	width: 230px;
+	margin-top: 20px;
+	background-color: #1E56A0;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+.sp_but11 {
+	width: 230px;
+	margin-top: 20px;
+	background-color: #1E56A0;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+.sp_but12 {
+	width: 230px;
+	margin-top: 20px;
+	background-color: #1E56A0;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+.sp_but13 {
+	width: 230px;
+	margin-top: 20px;
+	background-color: #1E56A0;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+.sp_but14 {
+	width: 230px;
+	margin-top: 20px;
+	background-color: #1E56A0;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+.sp_but15 {
+	width: 230px;
+	margin-top: 20px;
+	background-color: #1E56A0;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+.sp_but16 {
+	width: 230px;
+	margin-top: 20px;
+	background-color: #1E56A0;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+.sp_but17 {
+	width: 230px;
+	margin-top: 20px;
+	background-color: #1E56A0;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+.sp_but18 {
+	width: 230px;
+	margin-top: 20px;
+	background-color: #1E56A0;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+.sp_but19 {
+	width: 230px;
+	margin-top: 20px;
+	background-color: #1E56A0;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+.sp_but20 {
+	width: 230px;
+	margin-top: 20px;
+	background-color: #1E56A0;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+.sp_but21 {
+	width: 230px;
+	margin-top: 20px;
+	background-color: #1E56A0;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+.sp_but22 {
+	width: 230px;
+	margin-top: 20px;
+	background-color: #1E56A0;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+.sp_but23 {
+	width: 230px;
+	margin-top: 20px;
+	background-color: #1E56A0;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.spisoc1 {
+	display: none;
+  position: absolute;
+  background-color: #87CEFA;
+  border-radius: 10px;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.spisoc2 {
+	display: none;
+  position: absolute;
+  background-color: #87CEFA;
+  border-radius: 10px;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.spisoc3 {
+	display: none;
+  position: absolute;
+  background-color: #87CEFA;
+  border-radius: 10px;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.spisoc4 {
+	display: none;
+  position: absolute;
+  background-color: #87CEFA;
+  border-radius: 10px;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.spisoc5 {
+	display: none;
+  position: absolute;
+  background-color: #87CEFA;
+  border-radius: 10px;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.spisoc6 {
+	display: none;
+  position: absolute;
+  background-color: #87CEFA;
+  border-radius: 10px;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.spisoc7 {
+	display: none;
+  position: absolute;
+  background-color: #87CEFA;
+  border-radius: 10px;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.spisoc8 {
+	display: none;
+  position: absolute;
+  background-color: #87CEFA;
+  border-radius: 10px;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.spisoc9 {
+	display: none;
+  position: absolute;
+  background-color: #87CEFA;
+  border-radius: 10px;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.spisoc10 {
+	display: none;
+  position: absolute;
+  background-color: #87CEFA;
+  border-radius: 10px;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.spisoc11 {
+	display: none;
+  position: absolute;
+  background-color: #87CEFA;
+  border-radius: 10px;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.spisoc12 {
+	display: none;
+  position: absolute;
+  background-color: #87CEFA;
+  border-radius: 10px;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.spisoc13 {
+	display: none;
+  position: absolute;
+  background-color: #87CEFA;
+  border-radius: 10px;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.spisoc14 {
+	display: none;
+  position: absolute;
+  background-color: #87CEFA;
+  border-radius: 10px;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.spisoc15 {
+	display: none;
+  position: absolute;
+  background-color: #87CEFA;
+  border-radius: 10px;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.spisoc16 {
+	display: none;
+  position: absolute;
+  background-color: #87CEFA;
+  border-radius: 10px;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.spisoc20 {
+	display: none;
+  position: absolute;
+  background-color: #87CEFA;
+  border-radius: 10px;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.spisoc21 {
+	display: none;
+  position: absolute;
+  background-color: #87CEFA;
+  border-radius: 10px;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.spisoc22 {
+	display: none;
+  position: absolute;
+  background-color: #87CEFA;
+  border-radius: 10px;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.spisoc23 {
+	display: none;
+  position: absolute;
+  background-color: #87CEFA;
+  border-radius: 10px;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.sp_1b:hover .spisoc1 {display: block;}
+.sp_1b:hover .sp_but1 {background-color: #D6E4F0;}
+.sp_2b:hover .spisoc2 {display: block;}
+.sp_2b:hover .sp_but2 {background-color: #D6E4F0;}
+.sp_3b:hover .spisoc3 {display: block;}
+.sp_3b:hover .sp_but3 {background-color: #D6E4F0;}
+.sp_4b:hover .spisoc4 {display: block;}
+.sp_4b:hover .sp_but4 {background-color: #D6E4F0;}
+.sp_5b:hover .spisoc5 {display: block;}
+.sp_5b:hover .sp_but5 {background-color: #D6E4F0;}
+.sp_6b:hover .spisoc6 {display: block;}
+.sp_6b:hover .sp_but6 {background-color: #D6E4F0;}
+.sp_7b:hover .spisoc7 {display: block;}
+.sp_7b:hover .sp_but7 {background-color: #D6E4F0;}
+.sp_8b:hover .spisoc8 {display: block;}
+.sp_8b:hover .sp_but8 {background-color: #D6E4F0;}
+.sp_9b:hover .spisoc9 {display: block;}
+.sp_9b:hover .sp_but9 {background-color: #D6E4F0;}
+.sp_10b:hover .spisoc10 {display: block;}
+.sp_10b:hover .sp_but10 {background-color: #D6E4F0;}
+.sp_11b:hover .spisoc11 {display: block;}
+.sp_11b:hover .sp_but11 {background-color: #D6E4F0;}
+.sp_12b:hover .spisoc12 {display: block;}
+.sp_12b:hover .sp_but12 {background-color: #D6E4F0;}
+.sp_13b:hover .spisoc13 {display: block;}
+.sp_13b:hover .sp_but13 {background-color: #D6E4F0;}
+.sp_14b:hover .spisoc14 {display: block;}
+.sp_14b:hover .sp_but14 {background-color: #D6E4F0;}
+.sp_15b:hover .spisoc15 {display: block;}
+.sp_15b:hover .sp_but15 {background-color: #D6E4F0;}
+.sp_16b:hover .spisoc16 {display: block;}
+.sp_16b:hover .sp_but16 {background-color: #D6E4F0;}
+.sp_20b:hover .spisoc20 {display: block;}
+.sp_20b:hover .sp_but20 {background-color: #D6E4F0;}
+.sp_21b:hover .spisoc21 {display: block;}
+.sp_21b:hover .sp_but21 {background-color: #D6E4F0;}
+.sp_22b:hover .spisoc22 {display: block;}
+.sp_22b:hover .sp_but22 {background-color: #D6E4F0;}
+.sp_23b:hover .spisoc23 {display: block;}
+.sp_23b:hover .sp_but23 {background-color: #D6E4F0;}

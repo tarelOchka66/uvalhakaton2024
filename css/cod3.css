@@ -1,0 +1,83 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Anton', sans-serif;
+	color: black;
+	font-size: 16px;
+	background-color: #D6E4F0;
+	margin-top: 50px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+/*	margin: 0;*/
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	color: #163172;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	width: 1170px;
+	/*позиционирование по центру*/
+	margin: 0 auto; 
+}
+
+.section {
+	margin-top: 100px;
+}
+
+.pozihon {
+	text-align: center;
+/*    border: 1px solid blue;*/
+}
+
+input[type=text], input[type=password] {
+  width: 20%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #95CEEB;
+  border-radius: 10px;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #1f57a1;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #1E56A0;
+  color: #D6E4F0;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+  opacity: 0.9;
+  border-radius: 10px;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+.er_lp {
+	color: #FF0000;
+	display: flex;
+	margin-left: 42.3%;
+	margin-top: 10%;
+}

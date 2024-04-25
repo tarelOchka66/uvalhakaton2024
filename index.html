@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Звёздные увалы</title>
+	<!-- иконка (не удалять!) -->
+	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image.png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image.png" sizes="16x16" href="favicon-16x16.png">
+	<link rel="stylesheet" type="text/css" href="css/cod.css">
+	<noscript>ERROR js  !ВКЛЮЧИТЕ JavaSkript!  ERROR js</noscript>
+	<script src="js/j1.js"></script>
+
+ <style>
+img[tabindex="0"] {
+  cursor: zoom-in;
+}
+img[tabindex="0"]:focus {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: auto;
+  height: auto;
+  max-width: 99%;
+  max-height: 99%;
+  margin: auto;
+  box-shadow: 0 0 20px #000, 0 0 0 1000px rgba(210,210,210,.4);
+}
+img[tabindex="0"]:focus,
+img[tabindex="0"]:focus ~ * {
+  pointer-events: none;
+  cursor: zoom-out;
+}
+</style>
+</head>
+<body backgroundcolor="#000" background="img/gora.jpg">
+	<header id="header" class="header">
+			<div class="menu">
+				<div class="row">
+					<div class="col-sm">
+						<img style="width: 200px; height: 150px; left: 5%; top: -35%; position: absolute" class="rounded mx-auto d-block" alt="no" src="img/logo.png" />
+					</div>
+					<div class="col-sm">
+						<p style="left: 20%; top: 20px; position: absolute"><font size="6" color=#FFFFFF face="Century Gothic">Звёздные увалы</font></p>
+					</div>
+					<div class="col-sm">
+						<p style="left: 45%; top: 27px; position: absolute"><font size="5" color=#FFFFFF face="Century Gothic">Лыжи, палки, сила воли — вот что нужно для здоровья!</font></p>
+					</div>
+					<div class="col-sm">
+						<div class="button">
+							<a href="favicon-32x32.png" class="gradient-button">Голосование</a>
+						</div>
+					</div>
+				</div>
+			</div>
+	</header>
+
+	<!-- слайд шоу называйте как хотите -->
+	<div class="slideshow-container">
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 4</div>
+        <img src="img/1.jpg" style="width:100%; border-radius: 20px;">
+        <div class="text"></div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 4</div>
+        <img src="img/2.jpg" style="width:100%; border-radius: 20px;">
+        <div class="text"></div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 4</div>
+        <img src="img/3.jpg" style="width:100%; border-radius: 20px;">
+        <div class="text"></div>
+      </div>
+       <div class="mySlides fade">
+        <div class="numbertext">4 / 4</div>
+        <img src="img/4.jpg" style="width:100%; border-radius: 20px;">
+        <div class="text"></div>
+      </div>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span> 
+    </div>
+    <!-- подключила джс -->
+    <script>
+      var slideIndex = 0;
+      showSlides();
+      
+      function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none"; 
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1} 
+        slides[slideIndex-1].style.display = "block"; 
+        setTimeout(showSlides, 5000); // Change image every 5 seconds  
+      }
+    </script>
+
+<br><br><br>
+
+<div class="container">
+	<div class="row">
+		<div class="mlt"> 
+			<div class="col-sm">
+    			<p class="h1" style="color: white" align="center"><font face="Century Gothic" ><strong>Увалы - лыжня с вековой историей</strong></font>  </p>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<table width=105%>
+			<tr><td><img src="img/foto.png" class="mli" style="border-radius: 20px;"  alt="none" width=678 hight=435></td>
+			<td><p class="mlt2" style="color: white" ><font face="Century Gothic">Местная пресса 1900 года пишет о массовых лыжных прогулках на Тумановой горе (неподалёку от Увал).<br> <br>
+				Первые городские лыжные соревнования состоялись в 1925 году.<br> <br>
+				В 1986 году на Увалах прошли Всероссийские соревнования на приз Т.С. Мальцева. В них приняли участие спортсмены из 34 областей, в том числе и лыжники Шадринска. </font> </p></td></tr>
+		</table>
+	</div>
+
+<br><br><br>
+
+	<div class="row">
+		<table width=100%>
+			<tr><td> <p class="mlt3" style="color: white"><font  face="Century Gothic"> С 1938 года на Увалах стали проводить массовые культурные мероприятия. 
+				Например, большую популярность среди горожан имели маёвки - гуляния, семейные и дружеские пикники, приуроченные ко встрече весны и Дню международной солидарности трудящихся.<br><br>
+			 Именно здесь, на Увалах прошли первые послевоенные коллективные празднества. Их запечатлела газета Шадринский рабочий: 
+			 «15 июля 1945 г. впервые после войны за деревней Осеевой, на Увалах, состоялись массовые гуляния, на которые собрались тысячи шадринцев. 
+			 Играло два оркестра и очень много гармошек, были организованы аттракционы с призами, состоялся концерт кружков самодеятельности завода им. Сталина. В 5 часов начались конно-спортивные соревнования. 
+			 Хорошо обслуживали отдыхающих торгующие организации и общепит». <br><br>
+			По воспоминаниям Колясниковой Галины Андреевны (1942 г.р.) на улице Курчатова была лыжная база ДСО «Труд», популярная среди жителей поселка. Директором ее была Самохвалова Валентина Дмитриевна. 
+			В буфете всегда был горячий чай и булочки, которыми угощала вернувшихся с лыжной прогулки буфетчица по имени Анна. </font> </p></td>
+			<td><img src="img/foto2.png" class="mli2" style="border-radius: 20px;" alt="none" width=676 hight=433></td></tr>
+		</table>
+	</div> 
+	<div class="col-sm">
+	<p class="mlt" style="color: white" align="center"><font face="Century Gothic" ><strong> События </strong></font></p> 
+</div>
+
+
+<div class="row">
+		<table width=130%>
+			<tr><td> <img src="img/6.png" class="mli3" style="border-radius: 20px;"  alt="none" width=393 hight=291></td>
+			<td><img src="img/7.png" class="mli3" style="border-radius: 20px;" alt="none" width=393 hight=291></td>
+			<td><img src="img/8.png" class="mli3" style="border-radius: 20px; margin-left: -10%;" alt="none" width=259 hight=207></td></tr>
+			<tr><td><img src="img/10.png" class="mli3" style="border-radius: 20px;" alt="none" width=393 hight=291></td>
+			<td><img src="img/11.png" class="mli3" style="border-radius: 20px;" alt="none" width=393 hight=291></td>
+			<td><img src="img/9.1.png" class="mli3" style="border-radius: 20px;" alt="none" width=393 hight=291></td></tr>
+			<tr><td><img src="img/9.2.png" class="mli3" style="border-radius: 20px;" alt="none" width=393 hight=291></td>
+			<td><img src="img/9.3.png" class="mli3" style="border-radius: 20px;" alt="none" width=393 hight=291></td>
+			<td><img src="img/9.4.png" class="mli3" style="border-radius: 20px;" alt="none" width=393 hight=291></td></tr>
+		</table>
+</div> 
+
+	<div class="row">
+		<div class="col-sm">
+			<p class="mlt" style="color: white" align="center"><font face="Century Gothic" ><strong> Интересные факты! </strong></font>  </p> <p class="mlt" style="color: white" align="center"><font face="Century Gothic" > На территории Звёздных увалов прорастают различные растения. </font>  </p>
+			<img src="img/zwety4.png" class="mlt1" style="border-radius: 20px;" alt="none" width=1200 hight=1700>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-sm">
+			<p class="mlt" style="color: white" align="center"><font face="Century Gothic" ><strong> Галерея </strong></font></p> 
+		</div>
+
+	<div class="row">
+			<table style="margin-left: 2%;" width=100%>
+			
+				<tr><td><img src="img/amf1.jpg" class="mli4" tabindex="0"  alt="none" width=196 height=145/></td>	
+				<td><img src="img/amf2.jpg" class="mli4" tabindex="0" alt="none" width=196 height=145/></td>	
+				<td><img src="img/amf3.jpg" class="mli4" tabindex="0" alt="none" width=196 height=145/></td>
+				<td><img src="img/amf4.jpg" class="mli4" tabindex="0" alt="none" width=196 height=145/></td>
+				<td><img src="img/amf5.jpg" class="mli4" tabindex="0" alt="none" width=196 height=145/></td><tr>	
+
+				<tr><td><img src="img/amf6.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/art1.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/art2.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/art3.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/bes1.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td></tr>
+
+				<tr><td><img src="img/bes2.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/bes3.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/bes4.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/bes5.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/bes6.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td></tr>
+
+				<tr><td><img src="img/bes7.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/bes8.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/det1.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/det2.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/det3.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td></tr>
+
+				<tr><td><img src="img/det4.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/det5.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/det6.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/det7.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/det8.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td></tr>
+
+				<tr><td><img src="img/det9.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/det10.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/dom1.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/dom2.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/dom3.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td></tr>
+
+				<tr><td><img src="img/dom4.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/dom5.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/dom6.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/dom7.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/esh1.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td></tr>
+
+				<tr><td><img src="img/esh2.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/esh3.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/esh4.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/esh5.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/gle1.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td></tr>
+
+				<tr><td><img src="img/gle2.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/gle3.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/gle4.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/gle5.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/gle6.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td></tr>
+
+				<tr><td><img src="img/gle7.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/gle8.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/lbp1.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/lbp2.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/lbp3.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td></tr>
+
+				<tr><td><img src="img/lbp4.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/lbp5.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/lbp6.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/lbp7.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/ljgs1.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td></tr>
+
+				<tr><td><img src="img/ljgs2.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/ljot1.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/ljot2.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/ljot3.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/ljot4.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td></tr>
+
+				<tr><td><img src="img/ljot5.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/mdp1.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/mdp2.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/mdp3.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/mdp4.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td></tr>
+
+				<tr><td><img src="img/mdp5.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/movt1.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/movt2.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/movt3.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/movt4.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td></tr>
+
+				<tr><td><img src="img/movt5.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/movt6.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/movt7.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/mz1.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/mz2.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td></tr>
+
+				<tr><td><img src="img/mz3.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/mz4.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/op1.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/op2.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/op3.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td></tr>
+
+				<tr><td><img src="img/op4.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/op5.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/op6.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/op7.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/op8.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td></tr>
+
+				<tr><td><img src="img/ora1.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/ora2.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/ora3.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/ora4.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/ora5.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td></tr>
+
+				<tr><td><img src="img/rod1.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/rod2.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/rod3.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/rod4.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/sb1.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td></tr>
+
+				<tr><td><img src="img/sb2.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/sb3.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/sb4.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/sb5.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/sb6.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td></tr>
+
+				<tr><td><img src="img/sb7.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/sb8.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/sb9.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/stab1.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/stab2.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td></tr>
+
+				<tr><td><img src="img/stab3.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/stab4.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/stab5.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/stab6.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/stab7.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td></tr>
+
+				<tr><td><img src="img/stab8.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/td1.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/td2.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/td3.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/td4.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td></tr>
+
+				<tr><td><img src="img/td5.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/tt1.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/tt2.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/tt3.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/tt4.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td></tr>
+
+				<tr><td><img src="img/tt5.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/tt6.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/tt7.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/vor1.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/vor2.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td></tr>
+
+				<tr><td><img src="img/vor3.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/vor4.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/vor5.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/smol1.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td>
+				<td><img src="img/smol2.jpg" tabindex="0" style="border-radius: 20px;" alt="none" width=196 height=145/></td></tr>
+		</table>
+	</div>
+		</div>
+	</div>
+</div>
+
+	<footer id="footer" class="footer">
+
+			<div class="foot">
+				<div class="row">
+					<div class="col-sm">
+						<p class="h1" style="margin-top: 2%; left: 10%; position: absolute"><font color=#FFFFFF face="Century Gothic"> <strong> Контактная информация: </strong> </font></p>	
+					</div>
+					<div class="col-sm">
+						<p class="h1" style="margin-top: 4%; position: absolute; left: 10%"><font color=#FFFFFF face="Century Gothic">Телефон: 8 (35253) 33215 </font></p>
+					</div>
+					<div class="col-sm">
+						<p class="h1" style="margin-top: 6%; position: absolute; left: 10%"><font color=#FFFFFF face="Century Gothic">Почта: grad@shadrinsk-city.ru</font></p>
+					</div>
+					<div class="col-sm"> 
+						<img src="img/minstroy.png" class="mlt9"  alt="none" width=200 hight=180>
+					</div>
+					<div class="col-sm"> 
+						<img src="img/kur.png" class="mlt10"  alt="none" width=200 hight=180>
+					</div>
+					<div class="col-sm"> 
+						<img src="img/shadr.png" class="mlt11"  alt="none" width=200 hight=180>
+					</div>
+					<div class="col-sm"> 
+						<img src="img/ABP.png" class="mlt12"  alt="none" width=200 hight=180>
+					</div>
+			</div>
+		</div>
+	</footer>	
+</body>
+</html>
